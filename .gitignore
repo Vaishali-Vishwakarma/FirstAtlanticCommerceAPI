@@ -1,0 +1,36 @@
+﻿# Ignore Visual Studio generated files
+.vs/
+
+# Ignore ReSharper files
+_resharper/
+
+# Ignore project specific files
+/obj/
+/bin/
+
+# Ignore build artifacts
+*.cache
+*.dll
+*.exe
+
+# Ignore user-specific files
+*.suo
+*.user
+*.slnx
+*.sqlite
+
+# Ignore NuGet packages
+*.nuget.cache
+*.nuget.g.targets
+*.nuget.g.props
+
+# Ignore generated files
+*.vsidx
+*.AssemblyAttributes.cs
+*.GeneratedMSBuildEditorConfig.editorconfig
+*.assets.cache
+
+# Ignore .NET version specific files
+*.NETCoreApp,Version=v*.AssemblyAttributes.cs
+*.NETCoreApp,Version=v*.GeneratedMSBuildEditorConfig.editorconfig
+/.cr/personal/FavoritesList/List.xml
