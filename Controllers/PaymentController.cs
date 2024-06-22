@@ -11,7 +11,7 @@ namespace FirstAtlanticCommerceAPI.Controllers
     {
         readonly string facBaseUrl = "https://staging.ptranz.com/api/";  //Stage
                                    //"https://gateway.ptranz.com/api/";  //Prod
-        readonly string PowerTranzId = "00000000";   //your pawertranz id
+        readonly string PowerTranzId = "00000000";                   //your powertranz id
         readonly string PowerTranzPassword = "encrypted password";   //your powertranz password
 
         HttpClient httpClient = new HttpClient();
@@ -69,8 +69,8 @@ namespace FirstAtlanticCommerceAPI.Controllers
                     },
                     BillingAddress = new BillingAddress()
                     {
-                        FirstName = "John",//logged in user fname
-                        LastName = "Doe",//logged in user lname
+                        FirstName = "John", //logged in user fname
+                        LastName = "Doe",   //logged in user lname
                         Line1 = string.Empty,
                         Line2 = string.Empty,
                         City = string.Empty,
