@@ -3,7 +3,7 @@
     public class PaymentData
     {
         public int PaymentID { get; set; } = 0;
-        public int uid { get; set; }
+        public int UID { get; set; }
         public string? PaymentTo { get; set; }
         public string? PaymentFrom { get; set; }
         public string? TransactionIdentifier { get; set; }
